@@ -24,26 +24,13 @@ SiteMiner is an AI-powered web application that allows users to scrape text cont
 git clone https://github.com/yourusername/siteminer.git
 cd siteminer
 npm install
+```
+Environment Setup
+Create a .env file in the root directory:
 
-1. Set up Environment Variables
-Inside your project folder (siteminer), create a .env file in the root directory (same place as app.js and package.json):
-
-env
+ini
 Copy
 Edit
 RAPIDAPI_KEY=your_rapidapi_key
 OPENAI_API_KEY=your_openai_key
-
-2. Start the Server
-In the terminal, from the root folder:
-
-bash
-Copy
-Edit
-npm start
-Now, visit your app at:
-
-arduino
-Copy
-Edit
-http://localhost:3000
+Make sure .env is listed in .gitignore.
