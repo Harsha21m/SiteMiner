@@ -1,0 +1,28 @@
+
+ <%- include('partials/header') %>
+
+<div class="chat-container-unique">
+  <h2 class="chat-heading-unique">Ask Your Question 🤖</h2>
+
+  <form action="/chat" method="POST" class="chat-form-unique">
+    <input
+      type="text"
+      name="userQuery"
+      placeholder="Enter your message..."
+      required
+      class="chat-input-unique"
+    />
+    <button type="submit" class="chat-button-unique">Send</button>
+  </form>
+
+  <% if (typeof botResponse !== "undefined") { %>
+    <div class="chat-response-unique">
+      <p><strong>You:</strong> <%= userInput %></p>
+      <p><strong>AI:</strong> <%= botResponse %></p>
+    </div>
+  <% } %>
+</div>
+
+<button onclick="scrollToTop()" class="scroll-top-btn">↑</button>
+
+<%- include("partials/footer") %>

@@ -1,0 +1,21 @@
+<%- include('partials/header') %>
+
+<div class="scrape-container">
+  <h2>AI Web Scraper</h2>
+  <p>Enter a website URL and a prompt to extract data using AI.</p>
+
+  <form action="/scrape" method="POST" class="scrape-form">
+    <label for="url">Website URL:</label>
+    <input type="url" id="url" name="url" placeholder="https://example.com/product" required>
+
+    <label for="prompt">Prompt:</label>
+    <textarea id="prompt" name="prompt" placeholder="e.g. Extract the price, product name, and description" required></textarea>
+
+    <button type="submit" class="btn-scrape">Scrape Now</button>
+  </form>
+</div>
+
+<%- include('partials/footer') %>
+
+
+ 
