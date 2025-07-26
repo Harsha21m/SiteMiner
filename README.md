@@ -25,10 +25,12 @@ git clone https://github.com/yourusername/siteminer.git
 cd siteminer
 npm install
 ```
-## Environment Setup
+## 🔐 Environment Setup
 Create a .env file in the root directory:
+```env
 RAPIDAPI_KEY=your_rapidapi_key
-OPENAI_API_KEY=your_openai_key
+OPENAI_API_KEY=your_openai_api_key
+```
 
 ## ▶️ Running the App
 ```bash
