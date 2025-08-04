@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+
+
+<div class="result-container">
+  <h1>Scraped Data</h1>
+ <pre><%= JSON.stringify(data, null, 2) %></pre>
+  <a href="/" class="btn-back">← Back</a>
+</div>
+ 
+
+<div class="result-action-simple">
+  <h3 class="chat-heading">Need more help?</h3>
+  <a href="/chat" class="btn-chat-link">If you have any queries, ask me 🤖</a>
+</div>
+
+<button onclick="scrollToTop()" class="scroll-top-btn">↑</button>
+<%- include('partials/footer') %>
