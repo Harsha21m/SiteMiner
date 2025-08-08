@@ -37,5 +37,6 @@ npm install
 ## 🔐 Environment Setup
 Create a .env file in the root directory and add your API key:
 ```bash
-OPENAI_API_KEY=your_openai_api_key
+RAPID_API_SCRAPE_KEY=your_rapidapi_scrape_key
+RAPID_API_CHAT_KEY=your_rapidapi_chat_key
 ```
