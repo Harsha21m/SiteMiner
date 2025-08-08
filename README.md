@@ -39,4 +39,5 @@ Create a .env file in the root directory and add your API key:
 ```bash
 RAPID_API_SCRAPE_KEY=your_rapidapi_scrape_key
 RAPID_API_CHAT_KEY=your_rapidapi_chat_key
+
 ```
