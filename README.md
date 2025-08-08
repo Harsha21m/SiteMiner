@@ -9,8 +9,7 @@ Built with **Node.js**, **Express**, and **EJS**, it combines web scraping and A
 
 - **Web Scraping Tool** – Enter any valid URL and extract meaningful text using Cheerio and Axios.
 - **AI Chat Assistant** – Ask questions or request summaries from the scraped data using AI.
-- **Responsive UI** – Works on both desktop and mobile with a clean, Bootstrap-based design.
-- **Secure API Key Management** – `.env` used to store sensitive keys, keeping them safe from public access.
+- **Responsive UI** – Works on both desktop and mobile with a clean.
 
 ---
 
@@ -19,8 +18,8 @@ Built with **Node.js**, **Express**, and **EJS**, it combines web scraping and A
 **Frontend:** HTML, CSS, JavaScript, Bootstrap  
 **Backend:** Node.js, Express.js  
 **Templating Engine:** EJS  
-**Scraping Library:** Axios, Cheerio  
-**AI Integration:** OpenAI API / REST API  
+**Scraping Library:** Axios
+**API Integration:** RapidAPI's
 **Version Control:** Git & GitHub  
 
 ---
@@ -34,3 +33,9 @@ cd siteminer
 
 # Install dependencies
 npm install
+```
+## 🔐 Environment Setup
+Create a .env file in the root directory and add your API key:
+```bash
+OPENAI_API_KEY=your_openai_api_key
+```
