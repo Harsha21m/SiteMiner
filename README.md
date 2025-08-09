@@ -18,9 +18,9 @@ Built with **Node.js**, **Express**, and **EJS**, it combines web scraping and A
 **Frontend:** HTML, CSS, JavaScript, Bootstrap  
 **Backend:** Node.js, Express.js  
 **Templating Engine:** EJS  
-**Scraping Library:** Axios
 **API Integration:** RapidAPI's
 **Version Control:** Git & GitHub  
+**Deployment:** Vercel
 
 ---
 
@@ -40,3 +40,9 @@ Create a .env file in the root directory and add your API key:
 RAPID_API_SCRAPE_KEY=your_rapidapi_scrape_key
 RAPID_API_CHAT_KEY=your_rapidapi_chat_key
 ```
+## ▶️ Running the App
+```bash
+node index.js
+```
+Then visit: http://localhost:3000
+---
