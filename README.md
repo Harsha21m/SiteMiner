@@ -40,9 +40,11 @@ Create a .env file in the root directory and add your API key:
 RAPID_API_SCRAPE_KEY=your_rapidapi_scrape_key
 RAPID_API_CHAT_KEY=your_rapidapi_chat_key
 ```
+---
 ## ▶️ Running the App
 ```bash
 node index.js
 ```
-Then visit: http://localhost:3000
+Then visit: <span style="color:blue">http://localhost:3000</span>
+
 ---
