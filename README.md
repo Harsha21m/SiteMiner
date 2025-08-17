@@ -58,6 +58,8 @@ Then visit: <span style="color:blue">http://localhost:3000</span>
 └── README.md           # Project documentation
 ```
 ---
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!<br>
+## 🔗 Live Demo
+👉 [Try SiteMiner Here](https://site-miner.vercel.app/)<br>
 Thanks for checking out **SiteMiner**! 🚀  
 Happy coding! ✨
