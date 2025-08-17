@@ -48,3 +48,16 @@ node index.js
 Then visit: <span style="color:blue">http://localhost:3000</span>
 
 ---
+## 📁 Project Structure
+```bash
+├── public/             # Static files
+├── views/              # EJS templates
+├── .env                # Environment variables
+├── index.js              # Main server logic
+├── package.json        # Project metadata and dependencies
+└── README.md           # Project documentation
+```
+---
+Contributions, issues, and feature requests are welcome!
+Thanks for checking out **SiteMiner**! 🚀  
+Happy coding! ✨
