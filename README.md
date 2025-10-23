@@ -18,7 +18,7 @@ Built with **Node.js**, **Express**, and **EJS**, it combines web scraping and A
 **Frontend:** HTML, CSS, JavaScript, Bootstrap  
 **Backend:** Node.js, Express.js  
 **Templating Engine:** EJS  
-**API Integration:** RapidAPI's
+**API Integration:** RapidAPI's<br>
 **Version Control:** Git & GitHub  
 **Deployment:** Vercel
 
